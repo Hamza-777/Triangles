@@ -44,7 +44,7 @@ const Quiz = () => {
     }
 
     return (
-        <div className="quiz" id="areas">
+        <div className="quiz" id="quiz">
             <div className='container'>
                 <h1>Exactly how much do know about triangles ?</h1>
                 <p>Get set go ...</p>

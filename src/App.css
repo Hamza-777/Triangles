@@ -3,19 +3,42 @@
 .App {
     height: 100%;
     width: 100%;
-    background-image: url('./img/back.png');
+    background-image: url("https://wallpaperaccess.com/full/1567666.png");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
 }
 
 nav {
+    width: 100vw;
     position: fixed;
     top: 0;
     color: #fff;
     padding: 1.25em 0 1.25em 1.25em;
     z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .make,
@@ -101,6 +124,15 @@ form {
     border: none;
     outline: none;
     border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.make button:hover,
+.areas button:hover,
+.hypotenuse button:hover,
+.quiz button:hover {
+    background: transparent;
+    color: #fff;
 }
 
 .questions {
@@ -116,13 +148,13 @@ select {
 }
 
 .incorrect {
-    background: #DA0037;
-    color: #fff
+    background: #da0037;
+    color: #fff;
 }
 
 .correct {
-    background: #66DE93;
-    color: #fff
+    background: #66de93;
+    color: #fff;
 }
 
 @media only screen and (max-width: 768px) {

@@ -9,6 +9,20 @@ const App = () => {
     <div className="App">
     <nav>
       <h1>All About Triangles</h1>
+      <ul>
+          <li>
+            <a href="#make">Angles</a>
+          </li>
+          <li>
+            <a href="#areas">Area</a>
+          </li>
+          <li>
+            <a href="#hypotenuse">Hypotenuse</a>
+          </li>
+          <li>
+            <a href="#quiz">Quiz</a>
+          </li>
+        </ul>
     </nav>
       <Make />
       <Areas />
